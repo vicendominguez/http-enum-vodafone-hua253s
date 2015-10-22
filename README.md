@@ -2,9 +2,11 @@
 
 ### Introduction
 
-Vodafone-Spain is starting to rent a new Huawei HG253v2 router to the spanish costumers. This new router is coming with a new firmware version. 
+Vodafone-Spain is starting to rent a new Huawei HG253v2 router to the spanish costumers. This new router is coming with a new firmware version.
 
 ### The pre-scholar bug
+
+![Logo](img/prescholar.gif)
 
 I found a new simple security bug in that new firmware version. It is so easy to see it that I named it "the Pre-scholar bug". Basically, it is not validating the session cookie in some administration webpages:
 
@@ -60,7 +62,7 @@ PORT    STATE    SERVICE
 
 I have checked the Spanish Vodafone network trying to guess what the real scope is and I found >1000 routers with the "correct" brand, open port to internet and the bug working.
 
-### Experiments 
+### Experiments
 
 After speaking to a friend of mine, I was trying to geolocate this routers using Google geolocate API and the found BSSID. But it was not possible. The spanish BSSID (MAC address) database by google seems very poor. All my tries got a "Not found" answer :,(
 Using other IP location services was worse. They are completely inaccurate.
