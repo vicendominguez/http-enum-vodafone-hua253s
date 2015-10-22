@@ -10,13 +10,13 @@ Vodafone-Spain is starting to rent a new Huawei HG253v2 router to the spanish co
 
 I found a new simple security bug in that new firmware version. It is so easy to see it that I named it "the Pre-scholar bug". Basically, it is not validating the session cookie in some administration webpages:
 
- - http://<IP>/html_253s/api/ntwk/WlanBasic
- - http://<IP>/html_253s/api/system/diagnose_internet
- - http://<IP>/html_253s/api/system/hostinfo?type=ethhost
- - http://<IP>/html_253s/api/system/hostinfo?type=guesthost
- - http://<IP>/html_253s/api/system/hostinfo?type=homehost
- - http://<IP>/html_253s/api/system/hostinfo?type=wifihost
- - http://<IP>/html_253s/api/system/wizardcfg
+ - http://\<IP\>/html_253s/api/ntwk/WlanBasic
+ - http://\<IP\>/html_253s/api/system/diagnose_internet
+ - http://\<IP\>/html_253s/api/system/hostinfo?type=ethhost
+ - http://\<IP\>/html_253s/api/system/hostinfo?type=guesthost
+ - http://\<IP\>/html_253s/api/system/hostinfo?type=homehost
+ - http://\<IP\>/html_253s/api/system/hostinfo?type=wifihost
+ - http://\<IP\>/html_253s/api/system/wizardcfg
 
 So, It is possible to get direct information from those urls in any router open to internet.
 
