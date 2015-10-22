@@ -6,7 +6,7 @@ Vodafone-Spain is starting to rent a new Huawei HG253v2 router to the spanish co
 
 ### The pre-scholar bug
 
-I found a new security bug in that new firmware version. It is so easy to see it that I named it "the Pre-scholar bug". Basically, it is not validating the session cookie in some administration webpages:
+I found a new simple security bug in that new firmware version. It is so easy to see it that I named it "the Pre-scholar bug". Basically, it is not validating the session cookie in some administration webpages:
 
  - http://<IP>/html_253s/api/ntwk/WlanBasic
  - http://<IP>/html_253s/api/system/diagnose_internet
@@ -20,7 +20,7 @@ So, It is possible to get direct information from those urls in any router open 
 
 ### About the NSE script
 
-This is a Nmap NSE script to search Vodafone-Spain Huawei 253s_v2 router with the port 80/tcp or 443/tcp open to Internet (via this new bug).
+This is a Nmap NSE script to search Vodafone-Spain Huawei 253s_v2 router with the port 80/tcp and/or 443/tcp open to Internet (via this new bug).
 
 The script will try to get the SSID, BSSID, key-type and Password of the wifi network interface.
 
