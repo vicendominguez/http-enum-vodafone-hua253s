@@ -68,7 +68,7 @@ After speaking to a friend of mine, I was trying to geolocate this routers using
 
 Using other IP location services was worse. They are completely inaccurate.
 
-I tried with https://wigle.net/ and it is working but its API is very limited. I wrote to the wigle's owner but he wanted bread... so, you only can shoot to five or six bssid per day in that webpage :(
+I tried it with https://wigle.net/ and it is working but its API is very limited. I wrote to the wigle's owner but he wanted bread... so, you only can shoot to five or six bssid per day in that webpage :(
 
 ### Notes
 
