@@ -65,7 +65,10 @@ I have checked the Spanish Vodafone network trying to guess what the real scope 
 ### Experiments
 
 After speaking to a friend of mine, I was trying to geolocate this routers using Google geolocate API and the found BSSID. But it was not possible. The spanish BSSID (MAC address) database by google seems very poor. All my tries got a "Not found" answer :,(
+
 Using other IP location services was worse. They are completely inaccurate.
+
+I tried with https://wigle.net/ and it is working but its API is very limited. I wrote to the wigle's owner but he wanted bread... so, you only can shoot to five or six bssid per day in that webpage :(
 
 ### Notes
 
