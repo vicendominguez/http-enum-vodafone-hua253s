@@ -62,6 +62,8 @@ PORT    STATE    SERVICE
 
 I have checked the Spanish Vodafone network trying to guess what the real scope is and I found >1000 routers with the "correct" brand, open port to internet and the bug working.
 
+https://www.censys.io/ipv4?q=html_253s
+
 ### Experiments
 
 After speaking to a friend of mine, I was trying to geolocate this routers using Google geolocate API and the found BSSID. But it was not possible. The spanish BSSID (MAC address) database by google seems very poor. All my tries got a "Not found" answer :,(
